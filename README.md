@@ -11,11 +11,11 @@ The goal is to explore a more structured and controllable way to build business 
 
 * Init a project
 
-![init](./assets/init.png)
+![init](./assets/init.jpg)
 
 * Correcting errors through dialogue
 
-![init](./assets/error.png)
+![init](./assets/error.jpg)
 
 ---
 
