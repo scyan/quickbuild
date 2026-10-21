@@ -9,7 +9,7 @@ The goal is to explore a more structured and controllable way to build business 
 
 🔗 **[Try the Live Demo](http://quickbuild.bxsbl.com/ttadmin_front/home)** 
 
-🔗 **[Projects built and deployed entirely using this tool require no human intervention in the code.](http://quickbuild.bxsbl.com/gift-crm-6aaf7adf719ae899bad5507a/dashboard)** 
+🔗 **[Project built and deployed entirely using this tool require no human intervention in the code.](http://quickbuild.bxsbl.com/gift-crm-6aaf7adf719ae899bad5507a/dashboard)** 
 
 * Init a project
 
