@@ -11,13 +11,15 @@ The goal is to explore a more structured and controllable way to build business 
 
 🔗 **[Project built and deployed entirely using this tool require no human intervention in the code.](http://quickbuild.bxsbl.com/gift-crm-6aaf7adf719ae899bad5507a/dashboard)** 
 
-* Init a project
+* Example:
+
+1、Init a project
 
 ![init](./assets/init.jpg)
 
-* Correcting errors through dialogue
+2、Correcting errors through dialogue
 
-![init](./assets/error.jpg)
+![correct](./assets/error.jpg)
 
 ---
 
