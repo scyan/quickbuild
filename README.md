@@ -9,6 +9,8 @@ The goal is to explore a more structured and controllable way to build business 
 
 🔗 **[Try the Live Demo](http://quickbuild.bxsbl.com/ttadmin_front/home)** 
 
+🔗 **[Projects built and deployed entirely using this tool require no human intervention in the code.](http://quickbuild.bxsbl.com/gift-crm-6aaf7adf719ae899bad5507a/dashboard)** 
+
 * Init a project
 
 ![init](./assets/init.jpg)
@@ -58,9 +60,6 @@ Natural Language Requirements
     Interactive Application
 ```
 
-The AI generates a structured description of the interface. The engine interprets that description, resolves component configurations, and renders the resulting application.
-
-This architecture separates AI generation from UI execution, creating a clearer boundary between what the AI produces and how the application runs.
 
 ## Example Use Case
 
@@ -73,18 +72,6 @@ You describe the requirements:
 The AI generates a structured page description, and the engine renders the corresponding interface.
 
 The same approach can be explored for other business-oriented interfaces, depending on the components and capabilities supported by the current implementation.
-
-## Why a Low-Code Engine?
-
-AI-generated code is flexible, but directly generating complete application source code can make structure, consistency, and runtime behavior harder to control.
-
-A schema-driven approach offers several potential advantages:
-
-- **Clearer structure:** Page composition is represented explicitly.
-- **Runtime control:** Rendering behavior is handled by the engine.
-- **Validation opportunities:** Generated schemas can be checked before rendering.
-- **Component reuse:** Existing UI components can be reused through configuration.
-- **Separation of concerns:** AI generation and application rendering can evolve independently.
 
 ## Try It
 
@@ -107,6 +94,9 @@ Experience the application through the online demo:
 让 AI 不仅生成页面描述，还能通过低代码引擎将结构化配置直接渲染为可交付的线上项目。
 
 🔗 **[在线体验](http://quickbuild.bxsbl.com/ttadmin_front/homeL)** 
+
+🔗 **[完全通过这个工具构建并部署的项目，没有人为介入代码](http://quickbuild.bxsbl.com/gift-crm-6aaf7adf719ae899bad5507a/dashboard)** 
+
 ---
 
 ## 项目介绍
@@ -115,18 +105,17 @@ AI 已经能够生成 UI 代码，但构建一个可靠的业务应用，不仅�
 
 本项目探索一种不同的实现方式：**将 AI 生成能力与低代码引擎相结合。**
 
-系统使用结构化 Schema 描述页面和组件配置以及组件之间的关系，再由低代码引擎解析并渲染为可交互的 React 应用，而不是完全依赖 AI 直接生成整套应用源码。
+系统使用结构化 Schema 描述页面和组件配置以及组件之间的关系，再由低代码引擎解析并渲染为可交互的应用，而不是完全依赖 AI 直接生成整套应用源码。
 
 ## 核心特性
 
 - **AI 页面生成**：根据自然语言需求生成页面配置。
 - **Schema 驱动渲染**：通过结构化 Schema 描述页面结构，并由运行时解析执行。
-- **自研 React 低代码引擎**：将生成的 Schema 转换为可交互的界面。
+- **React 低代码引擎**：将生成的 Schema 转换为可交互的界面。
 - **动态组件解析**：根据组件配置解析对应组件并完成渲染。
 - **结构化配置**：将组件定义与页面结构分离，便于管理和约束 AI 输出。
 - **可扩展架构**：为扩展组件能力和应用构建流程提供基础。
 
-*具体功能以当前在线体验版本为准。*
 
 ## 工作原理
 
@@ -154,8 +143,6 @@ AI 已经能够生成 UI 代码，但构建一个可靠的业务应用，不仅�
 1. **AI 生成**：根据自然语言需求生成结构化的页面描述。
 2. **引擎解析**：解析 Schema，处理组件配置，并根据定义组织页面结构。
 3. **运行时渲染**：将解析后的结构转换为实际运行的 React 界面。
-
-通过将 AI 生成与 UI 执行分离，可以更清晰地控制生成结果的结构和运行方式。
 
 ## 应用场景示例
 
