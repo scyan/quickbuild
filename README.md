@@ -6,14 +6,15 @@ Turn natural language requirements into structured schemas and render them into 
 
 The goal is to explore a more structured and controllable way to build business applications with AI.
 
-<video src="https://bxsbl.oss-us-west-1.aliyuncs.com/quickbuild/build_crm_correct.mp4" controls width="600"></video>
+📺 **[Watch Demo Video](https://bxsbl.oss-us-west-1.aliyuncs.com/quickbuild/build_crm_correct.mp4)**
+
 
 🔗 **[Try the Live Demo](http://quickbuild.bxsbl.com/ttadmin_front/home)** 
 
 🔗 **[Project built and deployed entirely using this tool require no human intervention in the code.](http://quickbuild.bxsbl.com/gift-crm-6aaf7adf719ae899bad5507a/dashboard)** 
 
 
-* Example:
+* Screenshots:
 
 1、Init a project
 
@@ -97,6 +98,8 @@ Experience the application through the online demo:
 
 让 AI 不仅生成页面描述，还能通过低代码引擎将结构化配置直接渲染为可交付的线上项目。
 
+📺 **[观看Demo视频](https://scyan-test.oss-cn-beijing.aliyuncs.com/build_crm_correct.mp4)**
+
 🔗 **[在线体验](http://quickbuild.bxsbl.com/ttadmin_front/homeL)** 
 
 🔗 **[完全通过这个工具构建并部署的项目，没有人为介入代码](http://quickbuild.bxsbl.com/gift-crm-6aaf7adf719ae899bad5507a/dashboard)** 
@@ -110,8 +113,6 @@ AI 已经能够生成 UI 代码，但构建一个可靠的业务应用，不仅�
 本项目探索一种不同的实现方式：**将 AI 生成能力与低代码引擎相结合。**
 
 系统使用结构化 Schema 描述页面和组件配置以及组件之间的关系，再由低代码引擎解析并渲染为可交互的应用，而不是完全依赖 AI 直接生成整套应用源码。
-
-<video src="https://scyan-test.oss-cn-beijing.aliyuncs.com/build_crm_correct.mp4" controls width="600"></video>
 
 ## 核心特性
 
