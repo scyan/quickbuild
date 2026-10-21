@@ -1,6 +1,6 @@
 # Quick build(Based on AI Low-Code Engine)
 
-**Build business applications with AI, powered by a React low-code engine.**
+**Build business applications with AI, powered by a low-code engine.**
 
 Turn natural language requirements into structured schemas and render them into interactive applications.
 
@@ -33,7 +33,7 @@ Instead of relying entirely on AI-generated source code, the system uses structu
 
 - **AI-Powered UI Generation** — Generate application interfaces from natural language requirements.
 - **Schema-Driven Rendering** — Describe Page structures with schemas that can be interpreted by the runtime.
-- **Self-Developed React Engine** — Render generated schemas into interactive interfaces.
+- **Low Code Engine** — Render generated schemas into interactive interfaces.
 - **Dynamic Component Resolution** — Resolve component configurations and render the corresponding UI components.
 - **Structured Configuration** — Separate component definitions from page structure to make generated output more consistent and manageable.
 - **Extensible Architecture** — Provide a foundation for extending component capabilities and application-building workflows.
@@ -54,7 +54,7 @@ Natural Language Requirements
     Schema Interpretation
             │
             ▼
-      React Low-Code Engine
+      Low-Code Engine
             │
             ▼
     Interactive Application
@@ -89,7 +89,7 @@ Experience the application through the online demo:
 ---
 # QuickBuild(基于AI低代码引擎的项目构建工具)
 
-**基于React 低代码引擎，通过 AI 将自然语言需求转化为可交互的业务应用。**
+**基于低代码引擎，通过 AI 将自然语言需求转化为可交互的业务应用。**
 
 让 AI 不仅生成页面描述，还能通过低代码引擎将结构化配置直接渲染为可交付的线上项目。
 
@@ -111,7 +111,7 @@ AI 已经能够生成 UI 代码，但构建一个可靠的业务应用，不仅�
 
 - **AI 页面生成**：根据自然语言需求生成页面配置。
 - **Schema 驱动渲染**：通过结构化 Schema 描述页面结构，并由运行时解析执行。
-- **React 低代码引擎**：将生成的 Schema 转换为可交互的界面。
+- **低代码引擎**：将生成的 Schema 转换为可交互的界面。
 - **动态组件解析**：根据组件配置解析对应组件并完成渲染。
 - **结构化配置**：将组件定义与页面结构分离，便于管理和约束 AI 输出。
 - **可扩展架构**：为扩展组件能力和应用构建流程提供基础。
@@ -132,7 +132,7 @@ AI 已经能够生成 UI 代码，但构建一个可靠的业务应用，不仅�
        Schema 解析
             │
             ▼
-      React 低代码引擎
+        低代码引擎
             │
             ▼
         可交互应用
@@ -142,7 +142,7 @@ AI 已经能够生成 UI 代码，但构建一个可靠的业务应用，不仅�
 
 1. **AI 生成**：根据自然语言需求生成结构化的页面描述。
 2. **引擎解析**：解析 Schema，处理组件配置，并根据定义组织页面结构。
-3. **运行时渲染**：将解析后的结构转换为实际运行的 React 界面。
+3. **运行时渲染**：将解析后的结构转换为实际运行的界面。
 
 ## 应用场景示例
 
