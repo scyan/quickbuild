@@ -56,10 +56,10 @@ Natural Language Requirements
       Structured Schema
             │
             ▼
-    Schema Interpretation
+      Low-Code Engine
             │
             ▼
-      Low-Code Engine
+    Schema Interpretation
             │
             ▼
     Interactive Application
@@ -136,10 +136,10 @@ AI 已经能够生成 UI 代码，但构建一个可靠的业务应用，不仅�
        结构化 Schema
             │
             ▼
-       Schema 解析
+        低代码引擎
             │
             ▼
-        低代码引擎
+       Schema 解析
             │
             ▼
         可交互应用
