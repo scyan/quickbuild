@@ -1,10 +1,14 @@
-# Quick build(Based on AI Low-Code Engine)
+# Quick build——Project building tools for everyone
 
-**Build business applications with AI, powered by a low-code engine.**
+**Through multi-Agent collaboration and based on a low-code engine, natural language requirements are transformed into directly interactive business applications. No code knowledge is required, and it does not rely on agents to generate source code. It can be generated very quickly and build a complete project in 5 minutes.**
 
-Turn natural language requirements into structured schemas and render them into interactive applications.
+## How It Works
 
-The goal is to explore a more structured and controllable way to build business applications with AI.
+* Two agents collaborate
+* The agent outputs low-code within the constraints.
+* The program builds interactive applications based on low-code.
+
+## Demo
 
 📺 **[Watch Demo Video](https://bxsbl.oss-us-west-1.aliyuncs.com/quickbuild/build_crm_correct.mp4)**
 
@@ -23,47 +27,6 @@ The goal is to explore a more structured and controllable way to build business 
 2、Correcting errors through dialogue
 
 ![correct](./assets/error.jpg)
-
----
-
-## Overview
-
-AI can generate UI code, but building reliable business applications involves more than generating individual components. It requires structured page composition, component configuration, state management, and a runtime capable of turning generated output into working interfaces.
-
-This project explores an alternative approach: **combining AI generation with a self-developed low-code engine**.
-
-Instead of relying entirely on AI-generated source code, the system uses structured schemas to describe application interfaces. The low-code engine interprets these schemas and renders them as interactive applications.
-
-## Key Features
-
-- **AI-Powered UI Generation** — Generate application interfaces from natural language requirements.
-- **Schema-Driven Rendering** — Describe Page structures with schemas that can be interpreted by the runtime.
-- **Low Code Engine** — Render generated schemas into interactive interfaces.
-- **Dynamic Component Resolution** — Resolve component configurations and render the corresponding UI components.
-- **Structured Configuration** — Separate component definitions from page structure to make generated output more consistent and manageable.
-- **Extensible Architecture** — Provide a foundation for extending component capabilities and application-building workflows.
-
-
-## How It Works
-
-```text
-Natural Language Requirements
-            │
-            ▼
-       AI Generation
-            │
-            ▼
-      Structured Schema
-            │
-            ▼
-      Low-Code Engine
-            │
-            ▼
-    Schema Interpretation
-            │
-            ▼
-    Interactive Application
-```
 
 
 ## Example Use Case
@@ -92,11 +55,18 @@ Experience the application through the online demo:
 - **email: scyan@bxsbl.com**
 
 ---
-# QuickBuild(基于AI低代码引擎的项目构建工具)
+# QuickBuild(人人可用的项目构建工具)
 
-**基于低代码引擎，通过 AI 将自然语言需求转化为可交互的业务应用。**
+**通过多Agent协作，基于低代码引擎，将自然语言需求转化直接可交互的业务应用。无需代码知识，不依赖Agent生成源码，极速生成，5分钟构建一个完整项目。**
 
-让 AI 不仅生成页面描述，还能通过低代码引擎将结构化配置直接渲染为可交付的线上项目。
+
+## 工作原理
+
+* 两个Agent协作
+* Agent输出框架内的低代码
+* 程序根据低代码构建可交互的应用
+
+## Demo
 
 📺 **[观看Demo视频](https://scyan-test.oss-cn-beijing.aliyuncs.com/build_crm_correct.mp4)**
 
@@ -104,52 +74,6 @@ Experience the application through the online demo:
 
 🔗 **[完全通过这个工具构建并部署的项目，没有人为介入代码](http://quickbuild.bxsbl.com/gift-crm-6aaf7adf719ae899bad5507a/dashboard)** 
 
----
-
-## 项目介绍
-
-AI 已经能够生成 UI 代码，但构建一个可靠的业务应用，不仅需要生成组件，还涉及页面结构组织、组件配置、状态管理，以及将生成结果转换为实际运行界面的能力。
-
-本项目探索一种不同的实现方式：**将 AI 生成能力与低代码引擎相结合。**
-
-系统使用结构化 Schema 描述页面和组件配置以及组件之间的关系，再由低代码引擎解析并渲染为可交互的应用，而不是完全依赖 AI 直接生成整套应用源码。
-
-## 核心特性
-
-- **AI 页面生成**：根据自然语言需求生成页面配置。
-- **Schema 驱动渲染**：通过结构化 Schema 描述页面结构，并由运行时解析执行。
-- **低代码引擎**：将生成的 Schema 转换为可交互的界面。
-- **动态组件解析**：根据组件配置解析对应组件并完成渲染。
-- **结构化配置**：将组件定义与页面结构分离，便于管理和约束 AI 输出。
-- **可扩展架构**：为扩展组件能力和应用构建流程提供基础。
-
-
-## 工作原理
-
-```text
-       自然语言需求
-            │
-            ▼
-         AI 生成
-            │
-            ▼
-       结构化 Schema
-            │
-            ▼
-        低代码引擎
-            │
-            ▼
-       Schema 解析
-            │
-            ▼
-        可交互应用
-```
-
-整体流程分为三个关键环节：
-
-1. **AI 生成**：根据自然语言需求生成结构化的页面描述。
-2. **引擎解析**：解析 Schema，处理组件配置，并根据定义组织页面结构。
-3. **运行时渲染**：将解析后的结构转换为实际运行的界面。
 
 ## 应用场景示例
 
@@ -163,19 +87,6 @@ AI 根据需求生成结构化页面配置，低代码引擎再将其渲染为�
 
 根据当前实现支持的组件和能力，这种方式也可以用于探索其他业务页面的构建场景。
 
-## 为什么采用低代码引擎？
-
-AI 直接生成源代码具有很高的灵活性，但当目标从单个页面扩展到完整业务应用时，代码结构、组件一致性和运行行为可能更难控制。
-
-采用 Schema 驱动的方式，可以为以下能力提供基础：
-
-- **结构更清晰**：通过显式结构描述页面组成。
-- **运行时可控**：由引擎统一处理页面解析和渲染。
-- **支持生成结果校验**：在渲染之前检查 Schema 是否符合约定。
-- **组件复用**：通过配置复用已有 UI 组件。
-- **职责分离**：AI 生成与应用运行时可以独立演进。
-
-这些是该架构希望实现的优势，实际效果仍取决于具体实现和业务场景。
 
 ## 在线体验
 
@@ -190,11 +101,3 @@ AI 直接生成源代码具有很高的灵活性，但当目标从单个页面�
 - 当前缺少的组件或能力
 - 潜在的集成与合作机会
 - **联系邮箱: scyan@bxsbl.com**
-
-## 关于项目
-
-本项目希望探索一种更具结构性和可控性的 AI 应用构建方式：通过专门的运行时执行 AI 生成的结构化描述，而不是完全依赖 AI 生成源代码。
-
-如果你关注 AI 应用开发、低代码引擎架构，或有潜在的业务合作机会，欢迎联系交流。
-
----
