@@ -5,7 +5,8 @@
 ## How It Works
 
 * Two agents collaborate
-* The agent outputs low-code within the constraints.
+* Program verification mechanism —— Agent generates results in a loop
+* Self-developed low-code engine —— The agent outputs low-code code, consumes fewer tokens, is faster, and is more controllable.
 * The program builds interactive applications based on low-code.
 
 ## Demo
@@ -18,7 +19,7 @@
 🔗 **[Project built and deployed entirely using this tool require no human intervention in the code.](http://quickbuild.bxsbl.com/gift-crm-6aaf7adf719ae899bad5507a/dashboard)** 
 
 
-* Screenshots:
+### Screenshots:
 
 1、Init a project
 
@@ -63,7 +64,8 @@ Experience the application through the online demo:
 ## 工作原理
 
 * 两个Agent协作
-* Agent输出框架内的低代码
+* 程序校验机制 —— Agent循环生成结果
+* 自研低代码引擎 —— Agent输出低代码，token消耗更少，速度更快，更可控
 * 程序根据低代码构建可交互的应用
 
 ## Demo
