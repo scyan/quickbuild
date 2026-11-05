@@ -11,7 +11,7 @@
 
 ## Demo
 
-📺 **[Watch Demo Video](https://bxsbl.oss-us-west-1.aliyuncs.com/quickbuild/build_crm_correct.mp4)**
+📺 **[Watch Demo Video](https://cdn.bxsbl.com/quickbuild/quick_build.mp4)**
 
 
 🔗 **[Try the Live Demo](http://quickbuild.bxsbl.com/ttadmin_front/home)** 
@@ -70,7 +70,7 @@ Experience the application through the online demo:
 
 ## Demo
 
-📺 **[观看Demo视频](https://scyan-test.oss-cn-beijing.aliyuncs.com/build_crm_correct.mp4)**
+📺 **[观看Demo视频](https://cdn.bxsbl.com/quickbuild/quick_build.mp4)**
 
 🔗 **[在线体验](http://quickbuild.bxsbl.com/ttadmin_front/homeL)** 
 
