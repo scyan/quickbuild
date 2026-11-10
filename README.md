@@ -1,5 +1,7 @@
 # Quick build——Project building tools for everyone
 
+**Helping startups without software developers quickly build various enterprise management platforms
+
 **Through multi-Agent collaboration and based on a low-code engine, natural language requirements are transformed into directly interactive business applications. No code knowledge is required, and it does not rely on agents to generate source code. It can be generated very quickly and build a complete project in 5 minutes.**
 
 ## How It Works
